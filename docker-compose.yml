@@ -1,0 +1,9 @@
+version: '3'
+services:
+  my-service:
+    build: .
+    image: 'image-name:image-version'
+    volumes:
+      - './config.json:/app/config.json'
+    environment:
+      BOILERPLATE_ENV1: 'test value'
