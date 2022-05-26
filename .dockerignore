@@ -140,5 +140,7 @@ LICENSE
 README.md
 
 test
+coverage.lcov
+.coveragerc
 pytest.ini
 requirements.dev.txt

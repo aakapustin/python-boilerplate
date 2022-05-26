@@ -26,6 +26,18 @@ Fill the environment variables in `.env`
 $ python src/main.py
 ```
 
+## Count coverage
+
+Run coverage
+```bash
+$ coverage run -m pytest
+```
+
+Make html report
+```bash
+$ coverage html
+```
+
 ## Test
 
 ```bash
