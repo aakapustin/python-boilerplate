@@ -1,7 +1,7 @@
 import os
 import pytest
 from json import JSONDecodeError
-from src.config import Configuration
+from config import Configuration
 
 
 @pytest.fixture(autouse=True)
